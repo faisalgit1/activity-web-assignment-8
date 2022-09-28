@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Playig Football",
+    "img": "https://st.depositphotos.com/1480128/2099/i/950/depositphotos_20997099-stock-photo-kids-playing-football.jpg",
+    "time": 30,
+    "ratings": 4,
+    "details": " Football: When talking about the world’s most popular games, football tops the list. Every year we witness several football tournaments, which gives us the best adrenaline rush of our lives. It is exciting to see players and teams from various nations play against each other enthusiastically."
+  },
+  {
+    "id": "2",
+    "name": "Exercise",
+    "img": "https://www.eatthis.com/wp-content/uploads/sites/4/media/images/ext/925478246/plank-attractive-man-workout.jpg",
+    "time": 30,
+    "ratings": 5,
+    "details": "Trying to make sense of all the new workouts out there—like Peleton, Orangetheory, Barre, and trampoLEAN, to name but a few—can feel like a workout in itself. Each have their pros and cons, but research shows you're more likely to stick to a workout plan that is easy, efficient and shows results quickly."
+  },
+  {
+    "id": "3",
+    "name": "Cooding",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwto5xvl8OdOBupvnep0T5USe3GyBSa3xFCw&usqp=CAU",
+    "time": 60,
+    "ratings": 5,
+    "details": "Learning to code to step into the world of Information Technology and adapt to the Industry 4.0. Get more job opportunities Programming jobs are growing 50% faster than the overall job market with an average salary of 30% higher than that of other jobs."
+  },
+  {
+    "id": "4",
+    "name": "Study",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvmIOmnrE50uW6ub7fp0s90hDDeEy9KESV_w&usqp=CAU",
+    "time": 40,
+    "ratings": 3,
+    "details": "You also might feel you need to find somewhere to study where you won’t be interrupted. This, too, depends on your learning style.For instance, music may enhance focused study for auditory learners while it may distract from it for others. These same auditory learners may easily be distracted by a television in the background while others may simply tune it out."
+  },
+  {
+    "id": "5",
+    "name": "Social Networking",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAVNGN4PjbpQ7Wjpa5L-7TqceUQ6YoJjd_JA&usqp=CAU",
+    "time": 40,
+    "ratings": 5,
+    "details": "Social networks are very popular. Modern social networking sites are not just about connecting and sharing information. Such platforms are being used for many different purposes. Most people are still using social networking sites for social purpose while many are using them for a business purpose. Government, security agencies, researchers, etc. are using them for some different purposes."
+  },
+  {
+    "id": "6",
+    "name": "Story Books",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiI4wTonK1G4PGocRgqmPij5NCpRMCQX-6TQ&usqp=CAU",
+    "time": 40,
+    "ratings": 3,
+    "details": "Our stories are not only fairytales that offers to read traditional stories but also with the books that are informative to gain knowledge about every little thing kids come across, this make them grow by reading interesting and informative books with our free stories for kids."
+  }
+]
