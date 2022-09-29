@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar"
 import Activity from "./Components/Activity/Activity"
+import Blog from './Components/Blog/Blog';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Activity></Activity>
+      <Blog></Blog>
 
 
     </div>
