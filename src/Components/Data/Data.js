@@ -5,11 +5,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import img from "./Images/my-bg2.png"
 import './Data.css'
+import { useEffect } from 'react';
+// import { useEffect, useState } from 'react';
+
 
 const Data = (props) => {
     const [getData, setGetData] = useState(" ");
+    const [times, setTimes] = useState(0)
+
+    useEffect(() => {
+        const getSpentTime = localStorage.getItem('spent-time')
+        if (getSpentTime) {
+            setTimes(getSpentTime)
+        }
+    }, [])
     const findGetBreakData = (data) => {
         setGetData(data)
+        const getDataTime = parseFloat(times) + parseFloat(data)
+        setTimes(getDataTime)
+        localStorage.setItem('spent-time', getDataTime)
     }
     const { cart } = props;
     // console.log(cart)
@@ -17,6 +31,18 @@ const Data = (props) => {
     for (const time of cart) {
         totalTime = totalTime + time.time;
     }
+
+
+
+
+
+    //   const handleGetTimes=(time)=>{
+    //     const getDataTime=parseFloat(times) + parseFloat(time)
+    //     setTimes(getDataTime)
+    //     localStorage.setItem('spent-time',getDataTime)
+    //   }
+
+
     const notify = () => toast("Wow so easy! Your Activity Done");
     return (
         <div className='all-data'>
@@ -44,11 +70,11 @@ const Data = (props) => {
             <div>
                 <h5 className='time-break'>Add Break</h5>
                 <div className='break-button'>
-                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>10s</button>
-                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>20s</button>
-                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>30s</button>
-                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>40s</button>
-                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>50s</button>
+                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>10M</button>
+                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>20M</button>
+                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>30M</button>
+                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>40M</button>
+                    <button onClick={(e) => findGetBreakData(e.target.innerText)}>50M</button>
                 </div>
             </div>
             <div>
