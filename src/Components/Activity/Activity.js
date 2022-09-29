@@ -39,7 +39,9 @@ const Home = () => {
                 </div>
             </div>
             <div className='data-container'>
-
+                <Data
+                    cart={cart}
+                ></Data>
             </div>
         </div>
     );

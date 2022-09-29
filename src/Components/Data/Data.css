@@ -1,0 +1,73 @@
+.all-data {
+    background-color: beige;
+    box-shadow: 5px 6px 8px gray;
+    margin-right: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-left: 10px;
+}
+
+.body-details {
+    background-color: white;
+    border-radius: 6px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-break {
+    text-align: start;
+}
+
+.break-button button {
+    margin: 2px;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(171, 117, 223);
+    padding: 15px;
+}
+
+.break-button button:hover {
+    background-color: rgb(201, 9, 9);
+}
+
+.exercise-detail {
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: start;
+}
+
+.activity-button {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .all-data {
+        padding: 30px;
+    }
+
+    .activity-button {
+        width: 400px;
+    }
+}
