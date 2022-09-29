@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import img from "./Images/my-bg2.png"
 import './Data.css'
 
 const Data = (props) => {
@@ -18,7 +19,7 @@ const Data = (props) => {
     return (
         <div className='all-data'>
             <div className='profile'>
-                <img src="" alt="" />
+                <img src={img} alt="" />
                 <div className='profile-info'>
                     <h3>Faisal Ahmed</h3>
                     <p>Gazipur,Dhaka,Bangladesh</p>
