@@ -10,7 +10,7 @@ const Data = (props) => {
     // console.log(cart)
     let totalTime = 0;
     for (const time of cart) {
-        totalTime = totalTime + time.timeRequirement;
+        totalTime = totalTime + time.time;
     }
 
 
