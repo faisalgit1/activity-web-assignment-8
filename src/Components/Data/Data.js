@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Data.css'
 
 const Data = (props) => {
@@ -12,8 +14,7 @@ const Data = (props) => {
     for (const time of cart) {
         totalTime = totalTime + time.time;
     }
-
-
+    const notify = () => toast("Wow so easy! Your Activity Done");
     return (
         <div className='all-data'>
             <div className='profile'>
@@ -55,7 +56,8 @@ const Data = (props) => {
                 </div>
             </div>
             <div>
-                <button className='activity-button'>Activity Completed</button>
+                <button onClick={notify} className='activity-button'>Activity Completed</button>
+                <ToastContainer></ToastContainer>
             </div>
         </div>
     );
