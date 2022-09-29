@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import img from "./Images/my-bg2.png"
 import './Data.css'
 
@@ -22,7 +24,7 @@ const Data = (props) => {
                 <img src={img} alt="" />
                 <div className='profile-info'>
                     <h3>Faisal Ahmed</h3>
-                    <p>Gazipur,Dhaka,Bangladesh</p>
+                    <p> <FontAwesomeIcon icon={faLocationDot} />  Gazipur,Dhaka,</p>
                 </div>
             </div>
             <div className='body-details'>

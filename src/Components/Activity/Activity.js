@@ -26,7 +26,7 @@ const Home = () => {
             <div>
                 <div className='allCart-container'>
                     {/* <FontAwesomeIcon className='icon-title' icon={faBaseball}></FontAwesomeIcon> */}
-                    <h1>MY FAVOURITES ACTIVITY</h1>
+                    <h1>Todays Select ACTIVITY</h1>
                 </div>
                 <div className='all-card'>
                     {
